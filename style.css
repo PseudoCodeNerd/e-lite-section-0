@@ -1,0 +1,25 @@
+/* Styles of the 404 page of my website. */
+
+body {
+    background: #282a36;
+    color: #f8f8f2;
+    font-family: "Courier new";
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+.main {
+    position: absolute;
+    width: 350px;
+    min-width: 350px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+
+.main > span {
+    display: block;
+}
+
